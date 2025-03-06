@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expression Visualizer</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Expression Visualizer</h1>
+        <div class="input-section">
+            <input type="text" id="expression" placeholder="Enter expression" />
+            <select id="conversionType">
+                <option value="infixToPostfix">Infix to Postfix</option>
+                <option value="postfixToInfix">Postfix to Infix</option>
+            </select>
+            <button id="convertButton">Go</button>
+        </div>
+        <div class="result-section">
+            <h2>Result:</h2>
+            <div id="finalResult"></div>
+        </div>
+        <div class="steps-section">
+            <h2>Steps:</h2>
+            <div id="stepsContainer"></div>
+        </div>
+    </div>
+    <script src="js/scripts.js"></script>
+</body>
+
+</html>
