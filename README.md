@@ -7,6 +7,7 @@ A web-based tool to visualize the step-by-step conversion between infix and post
 - [Features](#features)
 - [How It Works](#how-it-works)
 - [Installation](#installation)
+- [Screenshots](#Screenshots)
 - [Usage](#usage)
 - [Algorithms](#algorithms)
 
@@ -53,13 +54,15 @@ The application consists of two main components:
 ### Setup
 
 1. Clone the repository:
-git clone <repository-url> cd INFIXTOPOST
+- git clone https://github.com/harsh308050/Infix-to-postfix-visualization/
+- cd Infix-to-postfix-visualization
 
 2. Install Python dependencies:
-pip install flask flask-cors
+- pip install flask flask-cors
 
 3. Run the server:
-cd backend python app.py
+- cd backend
+- python app.py
 
 
 4. The application will automatically open in your default web browser. If not navigate to:
